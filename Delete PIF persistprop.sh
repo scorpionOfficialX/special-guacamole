@@ -1,0 +1,27 @@
+sed -i 's/persist.sys.spoof.gms//g; 
+s/persist.sys.spoof.vending_sdk32//g; 
+s/persist.sys.pihooks.disable.gms//g; 
+s/persist.sys.pihooks.disable.gms//g; 
+s/persist.sys.pihooks_ID//g; 
+s/persist.sys.pixelprops.pi//g; 
+s/persist.sys.pixelprops.all//g; 
+s/persist.sys.pixelprops.gms//g; 
+s/persist.sys.pixelprops.gapps//g; 
+s/persist.sys.pixelprops.google//g; 
+s/persist.sys.pixelprops.gphotos//g; 
+s/persist.sys.pihooks_TAGS//g; 
+s/persist.sys.pihooks_TYPE//g; 
+s/persist.sys.pihooks_BRAND//g; 
+s/persist.sys.pihooks_DEBUG//g; 
+s/persist.sys.pihooks_MODEL//g; 
+s/persist.sys.pihooks_DEVICE//g; 
+s/persist.sys.pihooks_PRODUCT//g; 
+s/persist.sys.pihooks_RELEASE//g; 
+s/persist.sys.pihooks_FINGERPRINT//g; 
+s/persist.sys.pihooks_mainline_ID//g; 
+s/persist.sys.pihooks_MANUFACTURE//g; 
+s/persist.sys.pihooks_SECURITY_PA//g; 
+s/persist.sys.pihooks_mainline_BO//g; 
+s/persist.sys.pihooks_mainline_BR//g; 
+s/persist.sys.pihooks_mainline_MO//g; 
+s/persist.sys.pihooks_mainline_DE//g' "/data/property/persistent_properties"
